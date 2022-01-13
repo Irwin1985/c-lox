@@ -131,6 +131,7 @@ int addConstant(Chunk* chunk, Value value) {
 }
 ```
 
+# debug.c
 ```C
 #include <stdio.h>
 #include "debug.h"
@@ -173,6 +174,7 @@ static int simpleInstruction(const char* name, int offset) {
 }
 ```
 
+# memory.c
 ```C
 #include <stdlib.h>
 #include "memory.h"
